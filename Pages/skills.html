@@ -3,229 +3,110 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>My Skills | Merikebu Gashu</title>
-    <meta
-      name="description"
-      content="Explore the technical skills of Merikebu Gashu in frontend, backend, databases, UI/UX and AI."
-    />
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <title>Skills | Merinova WebTech</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
-
   <body>
-    <!-- NAVBAR -->
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm"
-    >
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html"
-          >Merikebu<span class="text-primary">.</span></a
-        >
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarMenu"
-        >
-          <span class="navbar-toggler-icon"></span>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">M MERINOVA <span>WEBTECH</span></a>
+        <button class="menu-btn" id="menuBtn">
+          <i class="fa-solid fa-bars"></i>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarMenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="skills.html">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="experience.html">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="education.html">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <a href="contact.html" class="btn btn-primary ms-lg-3">Hire Me</a>
-        </div>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="experience.html">Experience</a>
+          <a href="projects.html">Projects</a>
+          <a href="testimonials.html">Testimonials</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="btn small" href="contact.html">Hire Me →</a>
       </div>
-    </nav>
+    </header>
 
-    <!-- PAGE HEADER -->
-    <section class="page-header py-5 text-center">
-      <div class="container">
-        <h1 class="fw-bold">My <span class="text-primary">Skills</span></h1>
-        <p class="text-secondary">
-          Technologies, Tools and Professional Skills
+    <main>
+      <section class="page-section container">
+        <span class="eyebrow">MY TECHNICAL TOOLKIT</span>
+        <h1>My <span>Skills</span></h1>
+
+        <div class="two-col">
+          <div class="panel">
+            <h2>Frontend Development</h2>
+
+            <div class="skill">
+              <div><b>HTML5</b><span>Learning</span></div>
+              <div class="bar"><i style="width: 90%"></i></div>
+            </div>
+
+            <div class="skill">
+              <div><b>CSS3</b><span>Learning</span></div>
+              <div class="bar"><i style="width: 85%"></i></div>
+            </div>
+
+            <div class="skill">
+              <div><b>JavaScript</b><span>Learning</span></div>
+              <div class="bar"><i style="width: 75%"></i></div>
+            </div>
+
+            <div class="skill">
+              <div><b>React</b><span>Developing</span></div>
+              <div class="bar"><i style="width: 55%"></i></div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h2>Backend Development</h2>
+
+            <div class="skill">
+              <div><b>PHP</b><span>Learning</span></div>
+              <div class="bar"><i style="width: 70%"></i></div>
+            </div>
+
+            <div class="skill">
+              <div><b>MySQL</b><span>Learning</span></div>
+              <div class="bar"><i style="width: 70%"></i></div>
+            </div>
+
+            <div class="skill">
+              <div><b>C# / .NET</b><span>Practicing</span></div>
+              <div class="bar"><i style="width: 65%"></i></div>
+            </div>
+
+            <div class="skill">
+              <div><b>Node.js</b><span>Developing</span></div>
+              <div class="bar"><i style="width: 55%"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="note">
+          These percentages are illustrative. Adjust them to reflect your actual
+          skill levels.
         </p>
-        <p><a href="index.html">Home</a> / Skills</p>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <!-- INTRODUCTION -->
-    <section class="py-5">
-      <div class="container text-center">
-        <p class="text-primary fw-bold">MY EXPERTISE</p>
-        <h2 class="fw-bold mb-3">Technical Skills & Technologies</h2>
-        <p class="text-secondary mx-auto" style="max-width: 750px">
-          I continuously develop my technical knowledge and practical skills to
-          build modern websites, software applications and digital solutions.
-        </p>
-      </div>
-    </section>
-
-    <!-- SKILLS CARDS -->
-    <section class="pb-5">
-      <div class="container">
-        <div class="row g-4">
-          <div class="col-md-6 col-lg-4">
-            <div class="card skill-card h-100 p-3">
-              <div class="card-body">
-                <i class="fas fa-code fa-2x text-primary mb-3"></i>
-                <h4>Frontend Development</h4>
-                <p class="text-secondary">
-                  Creating responsive and interactive user interfaces.
-                </p>
-                <span class="badge bg-primary">HTML5</span>
-                <span class="badge bg-primary">CSS3</span>
-                <span class="badge bg-primary">JavaScript</span>
-                <span class="badge bg-secondary">Bootstrap</span>
-                <span class="badge bg-secondary">React</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card skill-card h-100 p-3">
-              <div class="card-body">
-                <i class="fas fa-server fa-2x text-primary mb-3"></i>
-                <h4>Backend Development</h4>
-                <p class="text-secondary">
-                  Developing application logic and server-side systems.
-                </p>
-                <span class="badge bg-primary">PHP</span>
-                <span class="badge bg-primary">Node.js</span>
-                <span class="badge bg-secondary">C#</span>
-                <span class="badge bg-secondary">ASP.NET</span>
-                <span class="badge bg-secondary">REST API</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card skill-card h-100 p-3">
-              <div class="card-body">
-                <i class="fas fa-database fa-2x text-primary mb-3"></i>
-                <h4>Database Management</h4>
-                <p class="text-secondary">
-                  Working with data storage and database systems.
-                </p>
-                <span class="badge bg-primary">MySQL</span>
-                <span class="badge bg-primary">SQL Server</span>
-                <span class="badge bg-secondary">Firebase</span>
-                <span class="badge bg-secondary">XAMPP</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card skill-card h-100 p-3">
-              <div class="card-body">
-                <i class="fas fa-palette fa-2x text-primary mb-3"></i>
-                <h4>UI/UX Design</h4>
-                <p class="text-secondary">
-                  Designing clear and user-friendly digital experiences.
-                </p>
-                <span class="badge bg-primary">Wireframing</span>
-                <span class="badge bg-primary">Responsive Design</span>
-                <span class="badge bg-secondary">Prototyping</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card skill-card h-100 p-3">
-              <div class="card-body">
-                <i class="fas fa-robot fa-2x text-primary mb-3"></i>
-                <h4>Artificial Intelligence</h4>
-                <p class="text-secondary">
-                  Exploring AI tools and intelligent digital solutions.
-                </p>
-                <span class="badge bg-primary">AI Tools</span>
-                <span class="badge bg-secondary">AI Integration</span>
-                <span class="badge bg-secondary">Prompt Engineering</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card skill-card h-100 p-3">
-              <div class="card-body">
-                <i class="fas fa-photo-film fa-2x text-primary mb-3"></i>
-                <h4>Digital Media</h4>
-                <p class="text-secondary">
-                  Creating and editing digital media content.
-                </p>
-                <span class="badge bg-primary">CapCut</span>
-                <span class="badge bg-secondary">Premiere Pro</span>
-                <span class="badge bg-secondary">Content Creation</span>
-              </div>
-            </div>
-          </div>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="brand" href="index.html">M MERINOVA <span>WEBTECH</span></a>
+          <p>Learn. Build. Innovate. Succeed.</p>
         </div>
-      </div>
-    </section>
-
-    <!-- TOOLS -->
-    <section class="py-5 bg-light">
-      <div class="container text-center">
-        <h2 class="fw-bold mb-4">Development Tools</h2>
-        <div class="d-flex justify-content-center flex-wrap gap-3">
-          <span class="badge bg-white text-dark border p-3">VS Code</span>
-          <span class="badge bg-white text-dark border p-3">Git</span>
-          <span class="badge bg-white text-dark border p-3">GitHub</span>
-          <span class="badge bg-white text-dark border p-3">Figma</span>
-          <span class="badge bg-white text-dark border p-3">XAMPP</span>
-          <span class="badge bg-white text-dark border p-3">Vercel</span>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
         </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer py-4">
-      <div class="container text-center">
-        <h4>Merikebu Gashu</h4>
-        <p>Learn. Build. Innovate. Succeed.</p>
-        <p class="mb-0">&copy; 2026 Merikebu Gashu. All Rights Reserved.</p>
+        <p>© <span class="year"></span> Merikebu Gashu Mengesha.</p>
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

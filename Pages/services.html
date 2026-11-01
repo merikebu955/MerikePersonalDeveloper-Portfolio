@@ -3,262 +3,107 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Services | Merikebu Gashu</title>
-    <meta
-      name="description"
-      content="Web development, UI/UX design and digital technology services by Merikebu Gashu."
-    />
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <title>Services | Merinova WebTech</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
-
   <body>
-    <!-- NAVBAR -->
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm"
-    >
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html"
-          >Merikebu<span class="text-primary">.</span></a
-        >
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarMenu"
-        >
-          <span class="navbar-toggler-icon"></span>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">M MERINOVA <span>WEBTECH</span></a>
+        <button class="menu-btn" id="menuBtn">
+          <i class="fa-solid fa-bars"></i>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarMenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="skills.html">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="experience.html">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="education.html">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <a href="contact.html" class="btn btn-primary ms-lg-3">Hire Me</a>
-        </div>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a class="active" href="services.html">Services</a>
+          <a href="experience.html">Experience</a>
+          <a href="projects.html">Projects</a>
+          <a href="testimonials.html">Testimonials</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="btn small" href="contact.html">Hire Me →</a>
       </div>
-    </nav>
+    </header>
 
-    <!-- PAGE HEADER -->
-    <section class="page-header py-5 text-center">
-      <div class="container">
-        <h1 class="fw-bold">My <span class="text-primary">Services</span></h1>
-        <p class="text-secondary">Technology Solutions for Your Ideas</p>
-        <p><a href="index.html">Home</a> / Services</p>
-      </div>
-    </section>
+    <main>
+      <section class="page-section container">
+        <span class="eyebrow">WHAT I CAN HELP WITH</span>
+        <h1>My <span>Services</span></h1>
 
-    <!-- INTRODUCTION -->
-    <section class="py-5">
-      <div class="container text-center">
-        <p class="text-primary fw-bold">WHAT I OFFER</p>
-        <h2 class="fw-bold">My Professional Services</h2>
-        <p class="text-secondary mx-auto mt-3" style="max-width: 750px">
-          I am developing practical skills to help individuals, businesses and
-          organizations build useful digital experiences and technology
-          solutions.
-        </p>
-      </div>
-    </section>
-
-    <!-- SERVICES CARDS -->
-    <section class="pb-5">
-      <div class="container">
-        <div class="row g-4">
-          <div class="col-md-6 col-lg-4">
-            <div class="card service-card h-100 p-4 text-center">
-              <div class="card-body">
-                <i class="fas fa-laptop-code fa-3x text-primary mb-4"></i>
-                <h4>Website Development</h4>
-                <p class="text-secondary">
-                  Responsive and modern websites for personal portfolios,
-                  businesses and organizations.
-                </p>
-                <a href="contact.html" class="btn btn-outline-primary mt-3"
-                  >Get Started</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card service-card h-100 p-4 text-center">
-              <div class="card-body">
-                <i class="fas fa-palette fa-3x text-primary mb-4"></i>
-                <h4>UI/UX Design</h4>
-                <p class="text-secondary">
-                  User-friendly interface design and attractive digital
-                  experiences.
-                </p>
-                <a href="contact.html" class="btn btn-outline-primary mt-3"
-                  >Get Started</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card service-card h-100 p-4 text-center">
-              <div class="card-body">
-                <i class="fas fa-database fa-3x text-primary mb-4"></i>
-                <h4>Database Solutions</h4>
-                <p class="text-secondary">
-                  Database design, organization and integration for web
-                  applications.
-                </p>
-                <a href="contact.html" class="btn btn-outline-primary mt-3"
-                  >Get Started</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card service-card h-100 p-4 text-center">
-              <div class="card-body">
-                <i class="fas fa-robot fa-3x text-primary mb-4"></i>
-                <h4>AI Digital Solutions</h4>
-                <p class="text-secondary">
-                  Exploring and integrating AI-powered tools into useful digital
-                  workflows.
-                </p>
-                <a href="contact.html" class="btn btn-outline-primary mt-3"
-                  >Get Started</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card service-card h-100 p-4 text-center">
-              <div class="card-body">
-                <i class="fas fa-video fa-3x text-primary mb-4"></i>
-                <h4>Video Editing</h4>
-                <p class="text-secondary">
-                  Video editing and creative digital content production.
-                </p>
-                <a href="contact.html" class="btn btn-outline-primary mt-3"
-                  >Get Started</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card service-card h-100 p-4 text-center">
-              <div class="card-body">
-                <i class="fas fa-bullhorn fa-3x text-primary mb-4"></i>
-                <h4>Digital Content Creation</h4>
-                <p class="text-secondary">
-                  Digital content creation and online brand communication.
-                </p>
-                <a href="contact.html" class="btn btn-outline-primary mt-3"
-                  >Get Started</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROCESS -->
-    <section class="py-5 bg-light">
-      <div class="container">
-        <div class="text-center mb-5">
-          <p class="text-primary fw-bold">HOW I WORK</p>
-          <h2 class="fw-bold">My Working Process</h2>
-        </div>
-
-        <div class="row g-4 text-center">
-          <div class="col-md-3">
-            <i class="fas fa-comments fa-2x text-primary mb-3"></i>
-            <h5>01. Discussion</h5>
-            <p class="text-secondary">Understand your idea and requirements.</p>
-          </div>
-
-          <div class="col-md-3">
-            <i class="fas fa-pencil-ruler fa-2x text-primary mb-3"></i>
-            <h5>02. Planning</h5>
-            <p class="text-secondary">
-              Plan the design and development approach.
+        <div class="card-grid">
+          <article class="panel service">
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Creating responsive and user-friendly websites using HTML, CSS,
+              JavaScript and modern technologies.
             </p>
-          </div>
+          </article>
 
-          <div class="col-md-3">
-            <i class="fas fa-code fa-2x text-primary mb-3"></i>
-            <h5>03. Development</h5>
-            <p class="text-secondary">Build and test the solution.</p>
-          </div>
-
-          <div class="col-md-3">
-            <i class="fas fa-rocket fa-2x text-primary mb-3"></i>
-            <h5>04. Delivery</h5>
-            <p class="text-secondary">
-              Prepare the final project for delivery.
+          <article class="panel service">
+            <i class="fa-solid fa-palette"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Designing clean, modern, accessible and attractive user
+              interfaces.
             </p>
-          </div>
+          </article>
+
+          <article class="panel service">
+            <i class="fa-solid fa-database"></i>
+            <h2>Database Development</h2>
+            <p>
+              Database design, organization and management using MySQL and SQL
+              Server.
+            </p>
+          </article>
+
+          <article class="panel service">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Web Applications</h2>
+            <p>
+              Developing practical web application concepts to solve real-world
+              problems.
+            </p>
+          </article>
+
+          <article class="panel service">
+            <i class="fa-solid fa-robot"></i>
+            <h2>AI Solutions</h2>
+            <p>
+              Exploring AI tools and intelligent solutions for digital products.
+            </p>
+          </article>
+
+          <article class="panel service">
+            <i class="fa-solid fa-video"></i>
+            <h2>Digital Content</h2>
+            <p>Creating educational and technology-related digital content.</p>
+          </article>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <!-- CTA -->
-    <section class="py-5 bg-primary text-white text-center">
-      <div class="container">
-        <h2>Have an Idea? Let's Work Together!</h2>
-        <p class="mt-3">
-          Let's turn your ideas into meaningful digital experiences.
-        </p>
-        <a href="contact.html" class="btn btn-light mt-3">Contact Me</a>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer py-4">
-      <div class="container text-center">
-        <h4>Merikebu Gashu</h4>
-        <p>Learn. Build. Innovate. Succeed.</p>
-        <p class="mb-0">&copy; 2026 Merikebu Gashu. All Rights Reserved.</p>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="brand" href="index.html">M MERINOVA <span>WEBTECH</span></a>
+          <p>Learn. Build. Innovate. Succeed.</p>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <p>© <span class="year"></span> Merikebu Gashu Mengesha.</p>
       </div>
     </footer>
 
-    
+    <script src="js/script.js"></script>
   </body>
 </html>

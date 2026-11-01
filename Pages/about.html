@@ -3,208 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>About Me | Merikebu Gashu</title>
+    <title>About Me | Merinova WebTech</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
-
   <body>
-    <!-- NAVBAR -->
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm"
-    >
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">
-          Merikebu<span class="text-primary">.</span>
-        </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarMenu"
-        >
-          <span class="navbar-toggler-icon"></span>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">M MERINOVA <span>WEBTECH</span></a>
+        <button class="menu-btn" id="menuBtn">
+          <i class="fa-solid fa-bars"></i>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarMenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="skills.html">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="experience.html">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="education.html">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-
-          <a href="contact.html" class="btn btn-primary ms-lg-3">Hire Me</a>
-        </div>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a class="active" href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="experience.html">Experience</a>
+          <a href="projects.html">Projects</a>
+          <a href="testimonials.html">Testimonials</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="btn small" href="contact.html">Hire Me →</a>
       </div>
-    </nav>
+    </header>
 
-    <!-- PAGE HEADER -->
-    <section class="page-header py-5 text-center">
-      <div class="container">
-        <h1 class="fw-bold">About <span class="text-primary">Me</span></h1>
+    <main>
+      <section class="page-section container">
+        <span class="eyebrow">GET TO KNOW ME</span>
+        <h1>About <span>Me</span></h1>
 
-        <p class="text-secondary">Discover My Story, Passion and Goals</p>
-
-        <p><a href="index.html">Home</a> / About</p>
-      </div>
-    </section>
-
-    <!-- ABOUT SECTION -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row align-items-center g-5">
-          <div class="col-lg-5 text-center">
-            <img
-              src="image/MerikeProfile.JPG"
-              alt="Merikebu Gashu"
-              class="img-fluid rounded-4 shadow about-image"
-            />
+        <div class="two-col">
+          <div class="profile-art">
+            <i class="fa-solid fa-user-astronaut"></i>
           </div>
 
-          <div class="col-lg-7">
-            <p class="text-primary fw-bold">WHO AM I?</p>
+          <div class="panel">
+            <h2>Hello! I'm Merikebu Gashu.</h2>
 
-            <h2 class="fw-bold mb-4">I Am Merikebu Gashu Mengesha</h2>
-
-            <h5 class="text-primary mb-3">
-              Information Technology Student | Full Stack Developer
-            </h5>
-
-            <p class="text-secondary">
-              I am an Information Technology student at Ambo University with a
-              strong interest in software development, artificial intelligence,
-              and technology innovation.
+            <p>
+              My name is Merikebu Gashu Mengesha. I am an Information Technology
+              student at Ambo University and an aspiring web developer
+              interested in web technologies, software development, database
+              management, and modern user interface design.
             </p>
 
-            <p class="text-secondary">
-              I enjoy designing and developing websites, building software
-              applications, exploring new technologies, and learning how
-              technology can solve real-world problems.
+            <p>
+              I enjoy learning new technologies, solving problems, and building
+              practical projects that make people's work easier.
             </p>
 
-            <p class="text-secondary">
-              My goal is to become a skilled Full Stack Developer, grow into an
-              AI Engineer, and establish my own technology company, Merinova
-              WebTech.
+            <p>
+              My goal is to become a professional full-stack developer and build
+              innovative technology solutions through Merinova WebTech.
             </p>
 
-            <p class="fw-bold text-primary">Disability Is Not Inability.</p>
+            <ul class="detail-list">
+              <li>
+                <i class="fa-solid fa-graduation-cap"></i> BSc Information
+                Technology — Ambo University
+              </li>
+              <li><i class="fa-solid fa-location-dot"></i> Ethiopia</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> merikebgashu@gmail.com
+              </li>
+              <li>
+                <i class="fa-solid fa-code"></i> Aspiring Full-Stack Developer
+              </li>
+            </ul>
 
-            <a href="contact.html" class="btn btn-primary mt-3"> Contact Me </a>
+            <p class="motto">"Disability Is Not Inability."</p>
+
+            <a href="contact.html" class="btn">Contact Me →</a>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <!-- PERSONAL INFORMATION -->
-    <section class="py-5 bg-light">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="fw-bold">Personal Information</h2>
-
-          <p class="text-secondary">A little more about me</p>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="brand" href="index.html">M MERINOVA <span>WEBTECH</span></a>
+          <p>Learn. Build. Innovate. Succeed.</p>
         </div>
-
-        <div class="row g-4">
-          <div class="col-md-6">
-            <div class="about-info-card">
-              <p><strong>Name:</strong> Merikebu Gashu Mengesha</p>
-
-              <p><strong>Profession:</strong> IT Student</p>
-
-              <p><strong>University:</strong> Ambo University</p>
-
-              <p><strong>Field:</strong> Information Technology</p>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="about-info-card">
-              <p><strong>Career:</strong> Full Stack Developer</p>
-
-              <p><strong>Interest:</strong> Artificial Intelligence</p>
-
-              <p><strong>Company Vision:</strong> Merinova WebTech</p>
-
-              <p><strong>Email:</strong> merikebgashu@gmail.com</p>
-            </div>
-          </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
         </div>
-      </div>
-    </section>
-
-    <!-- MY VISION -->
-    <section class="py-5">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="fw-bold">My Vision and Mission</h2>
-        </div>
-
-        <div class="row g-4">
-          <div class="col-md-6">
-            <div class="card h-100 shadow-sm border-0 p-4">
-              <div class="card-body">
-                <i class="fas fa-eye fa-3x text-primary mb-3"></i>
-
-                <h3>My Vision</h3>
-
-                <p class="text-secondary">
-                  To become a successful technology entrepreneur and build
-                  innovative digital solutions that create positive impact in
-                  society.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="card h-100 shadow-sm border-0 p-4">
-              <div class="card-body">
-                <i class="fas fa-bullseye fa-3x text-primary mb-3"></i>
-
-                <h3>My Mission</h3>
-
-                <p class="text-secondary">
-                  To continuously learn, develop my technical skills, create
-                  useful applications, and share knowledge with others.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer py-4">
-      <div class="container text-center">
-        <h4>Merikebu Gashu</h4>
-
-        <p>Learn. Build. Innovate. Succeed.</p>
-
-        <p>&copy; 2026 Merikebu Gashu. All Rights Reserved.</p>
+        <p>© <span class="year"></span> Merikebu Gashu Mengesha.</p>
       </div>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
