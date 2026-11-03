@@ -3,97 +3,352 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Merikebu Gashu</title>
-    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Merikebu Gashu | Personal Portfolio</title>
+
+    <meta
+      name="description"
+      content="Official personal portfolio of Merikebu Gashu, Full Stack Developer, AI Enthusiast and Technology Entrepreneur."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav">
-        <a href="index.html" class="brand">
-          <span class="brand-mark">M</span>
-          Merinova WebTech
-        </a>
 
-        <nav class="nav-links">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="services.html">Services</a>
-          <a href="skills.html">Skills</a>
-          <a href="experience.html">Experience</a>
-          <a href="projects.html">Projects</a>
-          <a href="testimonials.html">Testimonials</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+      <nav class="navbar container">
+        <a href="Pages/index.html" class="logo"> Merikebu<span>.</span> </a>
+
+        <ul class="nav-links">
+          <li><a href="Pages/about.html" class="active">Home</a></li>
+
+          <li><a href="Pages/about.html">About</a></li>
+
+          <li><a href="Pages/services.html">Services</a></li>
+
+          <li><a href="Pages/skills.html">Skills</a></li>
+
+          <li><a href="Pages/experience.html">Experience</a></li>
+
+          <li><a href="Pages/projects.html">Projects</a></li>
+
+          <li><a href="Pages/contact.html">Contact</a></li>
+        </ul>
+
+        <a href="Pages/contact.html" class="nav-button">
+          Let's Talk <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </nav>
     </header>
 
-    <main class="container hero">
-      <div class="hero-copy">
-        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+    <!-- ================= HERO SECTION ================= -->
 
-        <h1>Hello, I'm <span>Merikebu Gashu</span></h1>
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <!-- LEFT CONTENT -->
 
-        <h2>Full-Stack Developer | AI Enthusiast</h2>
+          <div class="hero-content">
+            <span class="hero-label">
+              <span class="status-dot"></span>
+              Welcome to my personal portfolio
+            </span>
 
-        <p>
-          I am an Information Technology student at Ambo University, passionate
-          about web development, artificial intelligence, and building
-          technology solutions that solve real-world problems.
-        </p>
+            <h1>
+              Hello, I'm <br />
+              <span>Merikebu Gashu</span>
+            </h1>
 
-        <div class="hero-buttons">
-          <a href="projects.html" class="btn">View My Projects</a>
-          <a href="contact.html" class="btn btn-outline">Contact Me</a>
+            <h2>
+              Full Stack Developer <br />
+              <span>& AI Enthusiast</span>
+            </h2>
+
+            <p class="hero-description">
+              I am an Information Technology student, passionate about building
+              modern web applications, exploring artificial intelligence, and
+              developing innovative technology solutions. My mission is to use
+              technology to solve real-world problems and create meaningful
+              digital experiences.
+            </p>
+
+            <!-- BUTTONS -->
+
+            <div class="hero-buttons">
+              <a href="Pages/projects.html" class="btn btn-primary">
+                Explore My Work
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+              <a href="Pages/contact.html" class="btn btn-outline">
+                Contact Me
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+            </div>
+
+            <!-- SOCIAL MEDIA -->
+
+            <div class="social-section">
+              <p>Follow Me</p>
+
+              <div class="social-links">
+                <a
+                  href="https://github.com/merikebu955"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/merikeb-gashu-a8a812379"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a
+                  href="https://x.com/MerikebG99484"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="X"
+                >
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a
+                  href="https://www.youtube.com/@MerinovaWebTech"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="YouTube"
+                >
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT PROFILE IMAGE -->
+
+          <div class="hero-image">
+            <div class="image-background"></div>
+
+            <div class="profile-image-wrapper">
+              <img
+                src="images/MERIKE.jpg"
+                alt="Portrait of Merikebu Gashu, a full-stack developer"
+            </div>
+
+            <div class="floating-card card-top">
+              <div class="floating-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+
+              <div>
+                <h4>Developer</h4>
+                <p>Building Digital Solutions</p>
+              </div>
+            </div>
+
+            <div class="floating-card card-bottom">
+              <div class="floating-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+
+              <div>
+                <h4>Innovator</h4>
+                <p>Learning & Creating</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <p class="motto">"Disability Is Not Inability."</p>
-      </div>
+      <!-- ================= INTRODUCTION SECTION ================= -->
 
-      <div class="hero-art">
-        <img
-          src="images/profile.jpg"
-          alt="Merikebu Gashu"
-          class="profile-image"
-        />
-      </div>
+      <section class="intro-section">
+        <div class="container intro-container">
+          <div class="intro-heading">
+            <span class="section-label">WHAT I DO</span>
+
+            <h2>
+              Turning Ideas Into
+              <span>Digital Solutions.</span>
+            </h2>
+          </div>
+
+          <div class="intro-description">
+            <p>
+              I combine creativity, technology, and problem-solving to build
+              useful digital experiences. I continuously develop my skills in
+              web development and emerging technologies to turn ideas into
+              reality.
+            </p>
+
+            <a href="about.html" class="text-link">
+              Discover More About Me
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SERVICES PREVIEW ================= -->
+
+      <section class="services-preview">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">MY EXPERTISE</span>
+
+            <h2>What I Can <span>Do</span></h2>
+
+            <p>
+              Technology skills and creative services that help transform ideas
+              into reality.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+
+              <h3>Web Development</h3>
+
+              <p>
+                Building responsive, modern, and user-friendly websites and web
+                applications.
+              </p>
+
+              <a href="services.html">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+
+              <h3>AI Solutions</h3>
+
+              <p>
+                Exploring artificial intelligence and developing smart
+                technology solutions.
+              </p>
+
+              <a href="services.html">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-pen-ruler"></i>
+              </div>
+
+              <h3>UI/UX Design</h3>
+
+              <p>
+                Creating clean, attractive, and user-centered digital
+                interfaces.
+              </p>
+
+              <a href="services.html">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CALL TO ACTION ================= -->
+
+      <section class="cta-section">
+        <div class="container cta-container">
+          <div>
+            <span class="section-label">LET'S WORK TOGETHER</span>
+
+            <h2>Have an Idea or Project?</h2>
+
+            <p>
+              Let's connect, share ideas, and build something meaningful
+              together.
+            </p>
+          </div>
+
+          <a href="contact.html" class="btn btn-white">
+            Get In Touch
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </section>
     </main>
 
-    <section class="page-section">
-      <div class="container">
-        <h2>What I Do</h2>
+    <!-- ================= FOOTER ================= -->
 
-        <div class="card-grid">
-          <article class="panel">
-            <i class="fas fa-code"></i>
-            <h3>Web Development</h3>
-            <p>Creating responsive and user-friendly websites.</p>
-          </article>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"> Merikebu<span>.</span> </a>
 
-          <article class="panel">
-            <i class="fas fa-brain"></i>
-            <h3>Artificial Intelligence</h3>
-            <p>Exploring AI technologies and intelligent solutions.</p>
-          </article>
+          <p>
+            Building digital solutions through creativity, technology, and
+            innovation.
+          </p>
+        </div>
 
-          <article class="panel">
-            <i class="fas fa-lightbulb"></i>
-            <h3>Innovation</h3>
-            <p>Turning ideas into practical technology projects.</p>
-          </article>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-social">
+          <h3>Connect With Me</h3>
+
+          <a href="https://github.com/merikebu955"> GitHub </a>
+
+          <a href="https://www.linkedin.com/in/merikeb-gashu-a8a812379">
+            LinkedIn
+          </a>
+
+          <a href="mailto:merikebgashu@gmail.com"> Email </a>
         </div>
       </div>
-    </section>
 
-    <footer class="site-footer">
-      <div class="container">
-        <p>&copy; 2026 Merinova WebTech. All Rights Reserved.</p>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Merikebu Gashu. All Rights Reserved.</p>
+
+        <p>Designed with passion and creativity.</p>
       </div>
     </footer>
-
-    <script src="js/script.js"></script>
   </body>
 </html>

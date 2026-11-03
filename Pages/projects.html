@@ -3,108 +3,380 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects | Merinova WebTech</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+
+    <title>My Projects | Merikebu Gashu</title>
+
+    <meta
+      name="description"
+      content="Explore web development, software development, and technology innovation projects by Merikebu Gashu."
     />
   </head>
+
   <body>
-    <header class="site-header">
-      <div class="container nav">
-        <a class="brand" href="index.html">M MERINOVA <span>WEBTECH</span></a>
-        <button class="menu-btn" id="menuBtn">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-        <nav class="nav-links" id="navLinks">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="services.html">Services</a>
-          <a href="experience.html">Experience</a>
-          <a class="active" href="projects.html">Projects</a>
-          <a href="testimonials.html">Testimonials</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-        <a class="btn small" href="contact.html">Hire Me →</a>
-      </div>
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+      <nav class="navbar container">
+        <a href="index.html" class="logo"> Merikebu<span> Gashu.</span> </a>
+
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="services.html">Services</a></li>
+
+          <li><a href="skills.html">Skills</a></li>
+
+          <li><a href="experience.html">Experience</a></li>
+
+          <li><a href="projects.html" class="active">Projects</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <a href="contact.html" class="nav-button">
+          Let's Talk <i class="fas fa-arrow-right"></i>
+        </a>
+      </nav>
     </header>
 
+    <!-- ================= MAIN CONTENT ================= -->
+
     <main>
-      <section class="page-section container">
-        <span class="eyebrow">MY CREATIVE WORK</span>
-        <h1>Featured <span>Projects</span></h1>
+      <!-- PROJECT HERO -->
 
-        <div class="card-grid three">
-          <article class="panel project">
-            <div class="project-icon">
-              <i class="fa-solid fa-graduation-cap"></i>
-            </div>
-            <h2>Merinova Smart Learning</h2>
-            <p>
-              A learning management system concept designed to support students
-              and educators.
-            </p>
-            <div class="tags">
-              <span>PHP</span><span>MySQL</span><span>JavaScript</span>
-            </div>
-            <a class="text-link" href="https://github.com/merikebu955">
-              View on GitHub →
-            </a>
-          </article>
+      <section class="projects-hero">
+        <div class="container">
+          <span class="projects-label"> MY CREATIVE WORK </span>
 
-          <article class="panel project">
-            <div class="project-icon">
-              <i class="fa-solid fa-building-columns"></i>
-            </div>
-            <h2>Ambo-Pulse (AAPES)</h2>
-            <p>
-              An academic and administrative performance evaluation system
-              project.
-            </p>
-            <div class="tags">
-              <span>PHP</span><span>MySQL</span><span>Bootstrap</span>
-            </div>
-            <a class="text-link" href="https://github.com/merikebu955">
-              View on GitHub →
-            </a>
-          </article>
+          <h1>My Projects & <span>Creations</span></h1>
 
-          <article class="panel project">
-            <div class="project-icon">
-              <i class="fa-solid fa-globe"></i>
-            </div>
-            <h2>Personal Portfolio</h2>
+          <p>
+            Every project is an opportunity to learn, solve problems, and turn
+            ideas into practical digital solutions. Explore some of my work and
+            technology initiatives.
+          </p>
+
+          <a href="#project-list" class="project-button">
+            Explore My Projects
+            <i class="fas fa-arrow-down"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- PROJECT INTRODUCTION -->
+
+      <section class="project-intro">
+        <div class="container">
+          <div class="project-heading">
+            <span class="projects-label"> WHAT I HAVE BEEN WORKING ON </span>
+
+            <h2>Turning Ideas Into <span>Solutions</span></h2>
+
             <p>
-              A personal website showcasing my skills, experience and
-              development journey.
+              My work focuses on software development, web technologies,
+              learning platforms, and innovative digital systems.
             </p>
-            <div class="tags">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT LIST -->
+
+      <section class="projects-section" id="project-list">
+        <div class="container">
+          <div class="projects-grid">
+            <!-- PROJECT 1 -->
+
+            <article class="project-card">
+              <div class="project-image project-image-one">
+                <div class="project-image-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+
+                <span class="project-category"> LMS / EDUCATION </span>
+              </div>
+
+              <div class="project-content">
+                <span class="project-status"> Learning Project </span>
+
+                <h3>Merinova Smart Learning</h3>
+
+                <p>
+                  An educational learning management system concept designed to
+                  support students, instructors, online learning, academic
+                  activities, and digital education.
+                </p>
+
+                <div class="project-technologies">
+                  <span>PHP</span>
+                  <span>MySQL</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="contact.html">
+                    Discuss Project
+                    <i class="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROJECT 2 -->
+
+            <article class="project-card">
+              <div class="project-image project-image-two">
+                <div class="project-image-icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+
+                <span class="project-category"> UNIVERSITY / SOFTWARE </span>
+              </div>
+
+              <div class="project-content">
+                <span class="project-status"> Prototype Concept </span>
+
+                <h3>Ambo-Pulse</h3>
+
+                <p>
+                  A university performance evaluation and improvement system
+                  concept designed to support academic evaluation,
+                  administrative evidence, and improvement planning.
+                </p>
+
+                <div class="project-technologies">
+                  <span>PHP</span>
+                  <span>MySQL</span>
+                  <span>Bootstrap</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="contact.html">
+                    Discuss Project
+                    <i class="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROJECT 3 -->
+
+            <article class="project-card">
+              <div class="project-image project-image-three">
+                <div class="project-image-icon">
+                  <i class="fas fa-user-tie"></i>
+                </div>
+
+                <span class="project-category"> PERSONAL BRANDING </span>
+              </div>
+
+              <div class="project-content">
+                <span class="project-status"> Portfolio Project </span>
+
+                <h3>Personal Developer Portfolio</h3>
+
+                <p>
+                  A professional personal portfolio website presenting my
+                  background, technical skills, services, experience,
+                  achievements, and projects.
+                </p>
+
+                <div class="project-technologies">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>Responsive Design</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    href="https://merikebugashu32personalportfoil.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live Portfolio
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROJECT 4 -->
+
+            <article class="project-card">
+              <div class="project-image project-image-four">
+                <div class="project-image-icon">
+                  <i class="fas fa-book-open"></i>
+                </div>
+
+                <span class="project-category"> E-LEARNING / INNOVATION </span>
+              </div>
+
+              <div class="project-content">
+                <span class="project-status"> Innovation Experience </span>
+
+                <h3>E-Learning Platform Initiative</h3>
+
+                <p>
+                  An educational technology initiative focused on using digital
+                  platforms to improve access to learning resources and support
+                  online education.
+                </p>
+
+                <div class="project-technologies">
+                  <span>Web Technology</span>
+                  <span>Education</span>
+                  <span>Digital Innovation</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="contact.html">
+                    Discuss Project
+                    <i class="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- DEVELOPMENT APPROACH -->
+
+      <section class="project-approach">
+        <div class="container">
+          <div class="project-heading">
+            <span class="projects-label"> MY DEVELOPMENT APPROACH </span>
+
+            <h2>How I Build <span>Projects</span></h2>
+
+            <p>
+              I believe that meaningful technology starts with understanding
+              real problems.
+            </p>
+          </div>
+
+          <div class="approach-grid">
+            <div class="approach-card">
+              <div class="approach-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+
+              <h3>01. Idea</h3>
+
+              <p>Identify a problem and develop a meaningful project idea.</p>
             </div>
-            <a class="text-link" href="https://github.com/merikebu955">
-              View on GitHub →
-            </a>
-          </article>
+
+            <div class="approach-card">
+              <div class="approach-icon">
+                <i class="fas fa-pencil-ruler"></i>
+              </div>
+
+              <h3>02. Planning</h3>
+
+              <p>
+                Define requirements, plan features, and organize the project
+                structure.
+              </p>
+            </div>
+
+            <div class="approach-card">
+              <div class="approach-icon">
+                <i class="fas fa-code"></i>
+              </div>
+
+              <h3>03. Development</h3>
+
+              <p>
+                Build the application using suitable programming languages and
+                tools.
+              </p>
+            </div>
+
+            <div class="approach-card">
+              <div class="approach-icon">
+                <i class="fas fa-check-circle"></i>
+              </div>
+
+              <h3>04. Improvement</h3>
+
+              <p>
+                Test the solution, learn from feedback, and improve the final
+                product.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT CTA -->
+
+      <section class="projects-cta">
+        <div class="container">
+          <span class="projects-label"> HAVE AN IDEA? </span>
+
+          <h2>Let's Build Something <span>Great Together</span></h2>
+
+          <p>
+            I am interested in technology projects, collaborations, innovation,
+            and opportunities to create useful digital solutions.
+          </p>
+
+          <a href="contact.html" class="project-button">
+            Start a Conversation
+            <i class="fas fa-arrow-right"></i>
+          </a>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <div>
-          <a class="brand" href="index.html">M MERINOVA <span>WEBTECH</span></a>
-          <p>Learn. Build. Innovate. Succeed.</p>
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+      <div class="container">
+        <a href="index.html" class="logo"> Merikebu<span> Gashu.</span> </a>
+
+        <p>Full Stack Developer | AI Enthusiast | Technology Entrepreneur</p>
+
+        <div class="social-links">
+          <a
+            href="https://github.com/merikebu955"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/merikeb-gashu-a8a812379"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a
+            href="https://www.youtube.com/@MerinovaWebTech"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
         </div>
-        <div class="footer-links">
-          <a href="about.html">About</a>
-          <a href="projects.html">Projects</a>
-          <a href="contact.html">Contact</a>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Merikebu Gashu. All Rights Reserved.</p>
+
+          <p>Disability Is Not Inability.</p>
         </div>
-        <p>© <span class="year"></span> Merikebu Gashu Mengesha.</p>
       </div>
     </footer>
-
-    <script src="js/script.js"></script>
   </body>
 </html>
